@@ -1,0 +1,32 @@
+ div{
+    width:0px;
+    height:0px;    
+    content: 0px;
+    border:50px solid #fff500; 
+    border-top:50px solid #0e7102;
+    border-left:50px solid #fff500;
+    border-right:50px solid red;
+    border-bottom:50px solid blue;
+    background: blue;
+}
+
+.top{
+    width:200px;
+    height: 50px;
+    background: lightgreen;
+    margin: 100px 0 0 100px;
+/*邊境(Margin) - 城牆至國界的區域上右下左*/
+    border:2px solid green;  
+    border-top:10px double green;
+    border-bottom:4px dashed green;
+}
+.bottom{
+    width:150px;
+    height: 200px;
+    background: lightgreen;
+    margin: 0px 125px;
+/*上下/左右*/
+    margin-top: none ;  
+    border:2px solid green; 
+    border-top:0px none green;
+} 
